@@ -1,2 +1,2 @@
 # Javascript-repo
-This repo contain javascript excercise
+This repo contain javascript pattern excercise
