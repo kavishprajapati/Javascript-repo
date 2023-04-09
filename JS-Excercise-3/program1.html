@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email_Validaton</title>
+</head>
+<body>
+    
+    <form>
+        Email: <input type="text" name="email" id="email">
+        <input type="submit" name="submit" value="Submit" onclick="return fun()">
+    </form>
+
+
+    <script>
+
+        function fun(){
+            
+            let myemail = document.getElementById("email").value;
+    
+            let pattern = /^(['a-z','A-z','0-9'\.]+@+['a-z','A-Z']+(\.)+['a-z','A-Z']{2,3})$/;
+    
+            let result = pattern.test(myemail);
+    
+            alert(result);
+    
+            return false;
+        }
+    
+    </script>
+
+</body>
+</html>
+
