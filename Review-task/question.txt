@@ -1,0 +1,5 @@
+make code work bind issue 
+
+add delete btn;
+count maintain
+add new product 
