@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<style>
+    .myCourses {
+        padding: 4px;
+        border-radius: 7px;
+        color: rgb(165, 150, 150);
+
+    }
+
+    #myLogOutBtn {
+        padding: 1px;
+        margin: 0px 9px 11px 7px;
+    }
+
+    .course-card {
+        padding-inline: 4rem;
+        padding-block: 2rem;
+        margin: 1rem;
+        border: 1px solid black;
+        border-radius: 10px;
+        box-shadow: 2px 2px 2px black;
+        text-transform: uppercase;
+        font-family: 'Courier New', Courier, monospace;
+        color: rgb(94, 90, 90);
+        font-weight: bold;
+    }
+
+    /* .table1 {
+        border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50px;
+    } */
+</style>
+
+<body>
+
+    <header>
+        <div class="border border-3 p-4 text-bg-light d-flex justify-content-around align-items-center">
+
+            <div>
+                <img src="../img/Rapid-Logo-Green-Black.png" height="60px" color="text-white" alt="">
+            </div>
+            <div class="d-flex">
+                <p id="HeadPara">admin@rapidops.com</p>
+                <b>| User</b>
+
+                <button id="myLogOutBtn">
+                    <i class="fa fa-sign-out p-1" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="myCourses bg bg-primary p-2">
+        <h3>My Courses</h3>
+    </div>
+
+    <div id="coursesBox" class="d-flex flex-wrap justify-content-center">
+
+    </div>
+
+    <script src="utils.js"></script>
+    <script src="task1_User.js"></script>
+</body>
+
+</html>
