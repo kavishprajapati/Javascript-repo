@@ -1,0 +1,78 @@
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clock_container{
+    width: 300px;
+    height: 40px;
+    margin: 100px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(220, 209, 209);
+    color: rgb(10, 4, 4);
+    border-radius: 10px;
+    padding: 5px;
+    padding-bottom: 2px;
+}
+
+#date_container{
+    width: 240px;
+    height: 40px;
+    margin: 80px;
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(220, 209, 209);
+    color: rgb(10, 4, 4);
+    border-radius: 10px;
+    padding: 5px;
+    padding-bottom: 2px;
+}
+
+.container2{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(220, 209, 209);
+    color: rgb(10, 4, 4);
+    border-radius: 10px;
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Stopwatch_timer{
+    font-size: 30px;
+}
+
+.stopwatch{
+    font-size: 30px;
+}
+
+body{
+    background-color: rgb(7, 19, 15);
+}
+
+#start{
+    background-color: chartreuse;
+}
+
+#stop{
+    background-color: rgb(255, 0, 0);
+}
+
+#resume{
+    background-color: rgb(0, 157, 255);
+    
+}
+
+#reset{
+    background-color: rgb(255, 149, 0);
+
+}
+

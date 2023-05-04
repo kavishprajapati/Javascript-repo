@@ -1,0 +1,50 @@
+<html>
+<head>
+    <title>Dynamic Table</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-4 col-6">
+        <h2>Add Data to Table</h2>
+        
+        <form autocomplete="off">
+
+            <div class="form-group">
+                <label for="firstName">First Name:</label>
+                <input type="text" class="form-control" id="firstName" placeholder="Enter First Name">
+            </div>
+
+            <div class="form-group">
+                <label for="lastName">Last Name:</label>
+                <input type="text" class="form-control" id="lastName" placeholder="Enter Last Name">
+            </div>
+            
+            <div>
+                <button type="button" class="btn btn-primary" id="btnadd" onclick="addData()">Add</button>
+                
+            </div>
+            <br>
+            <div>
+                <button type="button" class="btn btn-primary" id="renderbtn" onclick="renData()">RenderData</button>
+            </div>
+            <br>
+        
+        </form>
+
+        <table class="table mt-4">
+            <thead>
+                <tr>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="tableData">
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script src="Task3.js"></script>
+</body>
+</html>

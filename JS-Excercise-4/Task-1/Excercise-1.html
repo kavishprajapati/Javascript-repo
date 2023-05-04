@@ -1,0 +1,58 @@
+<!-- Digital clock - StopWatch - Current Date and Time -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Excercise 1</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="practice.js"></script>
+    
+</head>
+
+<body>
+    <div class="container1">
+
+        <div id="clock_container">
+
+        </div>
+
+        <div id="date_container">
+
+        </div>
+
+    </div>
+
+    <div class="container2">
+        <div class="timer">
+
+            <div class="stopwatch">STOPWATCH</div>
+
+            <div class="Stopwatch_timer"> 
+                <span class="digit" id="hr">00</span>
+                <span class="txt">hr</span>
+
+                <span class="digit" id="min">00</span>
+                <span class="txt">min</span>
+
+                <span class="digit" id="sec">00</span>
+                <span class="txt">sec</span>
+
+                <span class="digit" id="msec">00</span>
+                <span class="txt">ms</span>
+            </div>
+            <br>
+            <div class="buttons">
+                <button id="start" onclick="start()">Start</button>
+                <button id="stop" onclick="stop()">Stop</button>
+                <button id="resume" onclick="resume()">Resume</button>
+                <button id="reset" onclick="reset()">Reset</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
